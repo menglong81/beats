@@ -1,0 +1,11 @@
+processors:
+  - parse_event:
+      Index: -1
+      fieldPath: "source_path"
+      separator: "/"
+      ignoreError: true
+      mode: "auto"
+      keyName: "default"
+      enableEnvType: false
+      enableTime: true
+      deleteUnuseFields: true

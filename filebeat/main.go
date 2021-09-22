@@ -21,6 +21,7 @@ import (
 	"os"
 
 	"github.com/elastic/beats/v7/filebeat/cmd"
+	_"github.com/elastic/beats/v7/libbeat/processors/parse_event"
 	inputs "github.com/elastic/beats/v7/filebeat/input/default-inputs"
 )
 
